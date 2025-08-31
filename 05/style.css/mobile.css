@@ -3,14 +3,14 @@
     
     body {
     display: grid;
-    grid-template-rows: auto 1fr 1fr auto; /* Header | Sec2 | Sec3 | Footer */
+    grid-template-rows: auto 1fr 1fr auto; 
     min-height: 100vh;
 }
 
-
+/* Header */
 .header .container {
     display: grid;
-    grid-template-columns: 1fr auto; /* меню по центру, бургер справа */
+    grid-template-columns: 1fr auto; 
     align-items: center;
     position: relative;
 }
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 
-
+/* Main */
 .section-main {
     display: grid;
     grid-template-columns: 1fr; 
@@ -35,7 +35,7 @@
     gap: 10px;
     height: 40vh;
 }
-
+/* Comments */
 .section-comments .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -43,6 +43,8 @@
     gap: 10px;
     height: 40vh;
 }
+
+/* Footer */
 
 .footer .container {
     display: grid;
